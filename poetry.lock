@@ -1,0 +1,46 @@
+[[package]]
+category = "main"
+description = "A small Python package to hide or show the terminal cursor"
+name = "cursor"
+optional = false
+python-versions = "*"
+version = "1.3.4"
+
+[[package]]
+category = "main"
+description = "Projeto de Exemplo para curso no Hotel Urbano"
+name = "ghhu"
+optional = false
+python-versions = "*"
+version = "0.1"
+
+[package.dependencies]
+requests = "2.10.0"
+
+[[package]]
+category = "main"
+description = "Python HTTP for Humans."
+name = "requests"
+optional = false
+python-versions = "*"
+version = "2.10.0"
+
+[package.extras]
+security = ["ndg-httpsclient", "pyOpenSSL (>=0.13)", "pyasn1"]
+socks = ["PySocks (>=1.5.6)"]
+
+[metadata]
+content-hash = "b565107f12bd1089c8c4139d4b1663504644801fe68d1283df4de8a1d0eb211c"
+python-versions = "^3.8"
+
+[metadata.files]
+cursor = [
+    {file = "cursor-1.3.4.tar.gz", hash = "sha256:33f279a17789c04efd27a92501a0dad62bb011f8a4cdff93867c798d26508940"},
+]
+ghhu = [
+    {file = "ghhu-0.1.tar.gz", hash = "sha256:43e133a8118754dc5a4f83ec96f431f6d6f6e33f5bc5bb5da1b99abfd42fb3c7"},
+]
+requests = [
+    {file = "requests-2.10.0-py2.py3-none-any.whl", hash = "sha256:09bc1b5f3a56cd8c48d433213a8cba51a67d12936568f73b5f1793fcb0c0979e"},
+    {file = "requests-2.10.0.tar.gz", hash = "sha256:63f1815788157130cee16a933b2ee184038e975f0017306d723ac326b5525b54"},
+]

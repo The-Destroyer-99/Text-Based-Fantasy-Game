@@ -1,0 +1,2 @@
+why do we have slowtype, midtype, and fasttype in 3 different files?
+Password for Opt 5 in StartMenu is a948904f2f0f479b8f8197694b30184b0d2ed1c1cd2a1ec0fb85d299a192a447 which is hello world in hashes
